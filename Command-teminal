@@ -1,0 +1,19 @@
+#Node.js express
+sudo npm init --yes
+
+sudo npm i express express-handlebars express-session method-override mongoose passport passport-local bcryptjs connect-flash
+
+sudo npm install morgan
+
+mkdir config helpers models public routes views
+
+sudo npm i nodemon -D
+
+sudo service mongod start
+
+#Angular-cli
+ng new fronted
+ng serve
+ng g c <employees> //generate component
+ng g class employee
+ng g s employee // generate service
